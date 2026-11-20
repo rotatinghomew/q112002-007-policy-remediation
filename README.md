@@ -24,3 +24,12 @@
 ## 本地查看
 
 使用 Python 3.11 标准库，无需安装包。用 `python3 record_reader.py` 检查并列出收到的表行数；也可传入同格式资料目录。用 `python3 -m unittest discover -s tests -v` 检查资料契约。读取入口不会计算分析结果。
+
+## 简报引擎
+
+`briefing/` 包按业务日回溯计算规范适用、执行率、补救认领与周一分发，口径见 `docs/spec.md`。
+读取不受信任资料目录时用 `-I` 并以参数传入路径，例如：
+
+- `python3 -I generate_briefings.py records out`：生成 `out/briefing_packets.json`（各期督导包、教师名单、通知、两期差异）与 `out/summary.md`（中文摘要）。
+- `python3 -I -m unittest discover -s tests -v`：资料契约 + 23 项引擎口径测试。
+- 引擎只写本地文件，不连接真实邮箱；`recipients.json`、`released.json` 是 catalog 之外的旁路表（路由与历史留痕），缺失时自动降级为空表。

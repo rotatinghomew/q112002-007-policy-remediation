@@ -1,0 +1,2657 @@
+{
+  "applicability_series": {
+    "t1": [
+      [
+        5,
+        null,
+        "determined",
+        "p1",
+        ""
+      ]
+    ],
+    "t2": [
+      [
+        8,
+        13,
+        "determined",
+        "p2",
+        ""
+      ],
+      [
+        14,
+        16,
+        "conflict",
+        null,
+        "批准文件互相冲突且无撤销/裁定，需发文单位确认：p1,p2"
+      ],
+      [
+        17,
+        null,
+        "determined",
+        "p2",
+        ""
+      ]
+    ],
+    "t3": [
+      [
+        8,
+        24,
+        "determined",
+        "p2",
+        ""
+      ],
+      [
+        25,
+        null,
+        "determined",
+        "p1",
+        ""
+      ]
+    ],
+    "t4": [
+      [
+        9,
+        null,
+        "determined",
+        "p3",
+        ""
+      ]
+    ]
+  },
+  "claims": [
+    {
+      "claim": "c1",
+      "task": "t2",
+      "work": "w1",
+      "teacher": "a",
+      "state": "valid",
+      "reasons": []
+    },
+    {
+      "claim": "c2",
+      "task": "t3",
+      "work": "w1",
+      "teacher": "b",
+      "state": "lost_ruling",
+      "reasons": []
+    },
+    {
+      "claim": "c3",
+      "task": "t2",
+      "work": "w2",
+      "teacher": "d",
+      "state": "defective",
+      "reasons": [
+        "提示不晚于独立完成"
+      ]
+    },
+    {
+      "claim": "c4",
+      "task": "t2",
+      "work": "w3",
+      "teacher": "d",
+      "state": "valid",
+      "reasons": []
+    },
+    {
+      "claim": "c5",
+      "task": "t4",
+      "work": "w4",
+      "teacher": "c",
+      "state": "valid",
+      "reasons": []
+    }
+  ],
+  "editions": {
+    "i0": {
+      "edition": {
+        "issue": "i0",
+        "prepared": 12,
+        "send_day": 13,
+        "state": "sent"
+      },
+      "supervisor": {
+        "as_of": 13,
+        "rates": [
+          {
+            "policy": "p2",
+            "grade": 7,
+            "category": "论述",
+            "indicator": "提交",
+            "numerator": 8,
+            "denominator": 9,
+            "rate": 0.8889,
+            "pairs": [
+              {
+                "task": "t2",
+                "student": "s1",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s2",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s3",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s4",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s5",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s6",
+                "result": "missing"
+              },
+              {
+                "task": "t3",
+                "student": "s4",
+                "result": "ok"
+              },
+              {
+                "task": "t3",
+                "student": "s7",
+                "result": "ok"
+              },
+              {
+                "task": "t3",
+                "student": "s8",
+                "result": "ok"
+              }
+            ]
+          },
+          {
+            "policy": "p2",
+            "grade": 7,
+            "category": "论述",
+            "indicator": "独立草稿",
+            "numerator": 3,
+            "denominator": 9,
+            "rate": 0.3333,
+            "pairs": [
+              {
+                "task": "t2",
+                "student": "s1",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s2",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s3",
+                "result": "missing"
+              },
+              {
+                "task": "t2",
+                "student": "s4",
+                "result": "missing"
+              },
+              {
+                "task": "t2",
+                "student": "s5",
+                "result": "missing"
+              },
+              {
+                "task": "t2",
+                "student": "s6",
+                "result": "missing"
+              },
+              {
+                "task": "t3",
+                "student": "s4",
+                "result": "missing"
+              },
+              {
+                "task": "t3",
+                "student": "s7",
+                "result": "ok"
+              },
+              {
+                "task": "t3",
+                "student": "s8",
+                "result": "missing"
+              }
+            ]
+          }
+        ],
+        "remediation": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0,
+          "resolved": [],
+          "open": [
+            {
+              "task": "t2",
+              "student": "s3",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "a",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t2",
+              "student": "s4",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "a",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t2",
+              "student": "s5",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "a",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t2",
+              "student": "s6",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "a",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t3",
+              "student": "s4",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "b",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t3",
+              "student": "s8",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "b",
+              "window_policy": "p2"
+            }
+          ]
+        },
+        "uncertain": [],
+        "pending_observation": [
+          {
+            "task": "t1",
+            "student": "s1",
+            "window_end": 15
+          },
+          {
+            "task": "t1",
+            "student": "s2",
+            "window_end": 15
+          },
+          {
+            "task": "t1",
+            "student": "s3",
+            "window_end": 15
+          },
+          {
+            "task": "t1",
+            "student": "s4",
+            "window_end": 15
+          },
+          {
+            "task": "t1",
+            "student": "s5",
+            "window_end": 15
+          },
+          {
+            "task": "t1",
+            "student": "s6",
+            "window_end": 15
+          },
+          {
+            "task": "t4",
+            "student": "s9",
+            "window_end": 16
+          },
+          {
+            "task": "t4",
+            "student": "s10",
+            "window_end": 16
+          },
+          {
+            "task": "t4",
+            "student": "s11",
+            "window_end": 16
+          },
+          {
+            "task": "t4",
+            "student": "s12",
+            "window_end": 16
+          },
+          {
+            "task": "t4",
+            "student": "s13",
+            "window_end": 16
+          }
+        ]
+      },
+      "dispatch": {
+        "issue": "i0",
+        "state": "sent",
+        "prepared_day": 12,
+        "send_day": 13,
+        "teacher_lists": {
+          "a": [
+            {
+              "task": "t2",
+              "student": "s3",
+              "step": "独立草稿",
+              "owner": "a",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            },
+            {
+              "task": "t2",
+              "student": "s4",
+              "step": "独立草稿",
+              "owner": "a",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            },
+            {
+              "task": "t2",
+              "student": "s5",
+              "step": "独立草稿",
+              "owner": "a",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            },
+            {
+              "task": "t2",
+              "student": "s6",
+              "step": "独立草稿",
+              "owner": "a",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            },
+            {
+              "task": "t2",
+              "student": "s6",
+              "step": "提交",
+              "owner": "a",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            }
+          ],
+          "b": [
+            {
+              "task": "t3",
+              "student": "s4",
+              "step": "独立草稿",
+              "owner": "b",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            },
+            {
+              "task": "t3",
+              "student": "s8",
+              "step": "独立草稿",
+              "owner": "b",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            }
+          ]
+        },
+        "withdrawals": [],
+        "resolution_notices": [],
+        "owner_change_notices": [],
+        "prep_to_send_changes": [
+          {
+            "key": [
+              "t2",
+              "s3",
+              "独立草稿"
+            ],
+            "change": "新增待办",
+            "detail": null
+          },
+          {
+            "key": [
+              "t2",
+              "s4",
+              "独立草稿"
+            ],
+            "change": "新增待办",
+            "detail": null
+          },
+          {
+            "key": [
+              "t2",
+              "s5",
+              "独立草稿"
+            ],
+            "change": "新增待办",
+            "detail": null
+          },
+          {
+            "key": [
+              "t2",
+              "s6",
+              "提交"
+            ],
+            "change": "新增待办",
+            "detail": null
+          },
+          {
+            "key": [
+              "t2",
+              "s6",
+              "独立草稿"
+            ],
+            "change": "新增待办",
+            "detail": null
+          },
+          {
+            "key": [
+              "t3",
+              "s4",
+              "独立草稿"
+            ],
+            "change": "新增待办",
+            "detail": null
+          },
+          {
+            "key": [
+              "t3",
+              "s8",
+              "独立草稿"
+            ],
+            "change": "新增待办",
+            "detail": null
+          }
+        ]
+      },
+      "routing": [
+        {
+          "recipient": "a",
+          "role": "教师",
+          "routable": true,
+          "item_count": 5,
+          "note": ""
+        },
+        {
+          "recipient": "b",
+          "role": "教师",
+          "routable": true,
+          "item_count": 2,
+          "note": ""
+        }
+      ]
+    },
+    "i1": {
+      "edition": {
+        "issue": "i1",
+        "prepared": 16,
+        "send_day": 20,
+        "state": "prepared"
+      },
+      "supervisor": {
+        "as_of": 20,
+        "rates": [
+          {
+            "policy": "p1",
+            "grade": 7,
+            "category": "论述",
+            "indicator": "提交",
+            "numerator": 5,
+            "denominator": 6,
+            "rate": 0.8333,
+            "pairs": [
+              {
+                "task": "t1",
+                "student": "s1",
+                "result": "ok"
+              },
+              {
+                "task": "t1",
+                "student": "s2",
+                "result": "ok"
+              },
+              {
+                "task": "t1",
+                "student": "s3",
+                "result": "ok"
+              },
+              {
+                "task": "t1",
+                "student": "s4",
+                "result": "ok"
+              },
+              {
+                "task": "t1",
+                "student": "s5",
+                "result": "ok"
+              },
+              {
+                "task": "t1",
+                "student": "s6",
+                "result": "missing"
+              }
+            ]
+          },
+          {
+            "policy": "p2",
+            "grade": 7,
+            "category": "论述",
+            "indicator": "提交",
+            "numerator": 8,
+            "denominator": 9,
+            "rate": 0.8889,
+            "pairs": [
+              {
+                "task": "t2",
+                "student": "s1",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s2",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s3",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s4",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s5",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s6",
+                "result": "missing"
+              },
+              {
+                "task": "t3",
+                "student": "s4",
+                "result": "ok"
+              },
+              {
+                "task": "t3",
+                "student": "s7",
+                "result": "ok"
+              },
+              {
+                "task": "t3",
+                "student": "s8",
+                "result": "ok"
+              }
+            ]
+          },
+          {
+            "policy": "p2",
+            "grade": 7,
+            "category": "论述",
+            "indicator": "独立草稿",
+            "numerator": 3,
+            "denominator": 9,
+            "rate": 0.3333,
+            "pairs": [
+              {
+                "task": "t2",
+                "student": "s1",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s2",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s3",
+                "result": "missing"
+              },
+              {
+                "task": "t2",
+                "student": "s4",
+                "result": "missing"
+              },
+              {
+                "task": "t2",
+                "student": "s5",
+                "result": "missing"
+              },
+              {
+                "task": "t2",
+                "student": "s6",
+                "result": "missing"
+              },
+              {
+                "task": "t3",
+                "student": "s4",
+                "result": "missing"
+              },
+              {
+                "task": "t3",
+                "student": "s7",
+                "result": "ok"
+              },
+              {
+                "task": "t3",
+                "student": "s8",
+                "result": "missing"
+              }
+            ]
+          },
+          {
+            "policy": "p3",
+            "grade": 8,
+            "category": "论述",
+            "indicator": "提交",
+            "numerator": 4,
+            "denominator": 5,
+            "rate": 0.8,
+            "pairs": [
+              {
+                "task": "t4",
+                "student": "s9",
+                "result": "missing"
+              },
+              {
+                "task": "t4",
+                "student": "s10",
+                "result": "ok"
+              },
+              {
+                "task": "t4",
+                "student": "s11",
+                "result": "ok"
+              },
+              {
+                "task": "t4",
+                "student": "s12",
+                "result": "ok"
+              },
+              {
+                "task": "t4",
+                "student": "s13",
+                "result": "ok"
+              }
+            ]
+          },
+          {
+            "policy": "p3",
+            "grade": 8,
+            "category": "论述",
+            "indicator": "独立草稿",
+            "numerator": 0,
+            "denominator": 5,
+            "rate": 0.0,
+            "pairs": [
+              {
+                "task": "t4",
+                "student": "s9",
+                "result": "missing"
+              },
+              {
+                "task": "t4",
+                "student": "s10",
+                "result": "missing"
+              },
+              {
+                "task": "t4",
+                "student": "s11",
+                "result": "missing"
+              },
+              {
+                "task": "t4",
+                "student": "s12",
+                "result": "missing"
+              },
+              {
+                "task": "t4",
+                "student": "s13",
+                "result": "missing"
+              }
+            ]
+          }
+        ],
+        "remediation": {
+          "numerator": 1,
+          "denominator": 11,
+          "rate": 0.0909,
+          "resolved": [
+            {
+              "task": "t2",
+              "student": "s5",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "resolved_makeup",
+              "resolution": {
+                "type": "makeup",
+                "claim": "c4",
+                "work": "w3",
+                "teacher": "d"
+              },
+              "owner": "d",
+              "window_policy": "p2"
+            }
+          ],
+          "open": [
+            {
+              "task": "t2",
+              "student": "s3",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "d",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t2",
+              "student": "s4",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "d",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t2",
+              "student": "s6",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "d",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t3",
+              "student": "s4",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "b",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t3",
+              "student": "s8",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "b",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t4",
+              "student": "s9",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            },
+            {
+              "task": "t4",
+              "student": "s10",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            },
+            {
+              "task": "t4",
+              "student": "s11",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            },
+            {
+              "task": "t4",
+              "student": "s12",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            },
+            {
+              "task": "t4",
+              "student": "s13",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            }
+          ]
+        },
+        "uncertain": [],
+        "pending_observation": []
+      },
+      "dispatch": {
+        "issue": "i1",
+        "state": "prepared",
+        "prepared_day": 16,
+        "send_day": 20,
+        "teacher_lists": {
+          "a": [
+            {
+              "task": "t1",
+              "student": "s6",
+              "step": "提交",
+              "owner": "a",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            }
+          ],
+          "d": [
+            {
+              "task": "t2",
+              "student": "s3",
+              "step": "独立草稿",
+              "owner": "d",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            },
+            {
+              "task": "t2",
+              "student": "s4",
+              "step": "独立草稿",
+              "owner": "d",
+              "state": "open",
+              "resolution": null,
+              "contested_work": [
+                "w1"
+              ]
+            },
+            {
+              "task": "t2",
+              "student": "s6",
+              "step": "独立草稿",
+              "owner": "d",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            },
+            {
+              "task": "t2",
+              "student": "s6",
+              "step": "提交",
+              "owner": "d",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            }
+          ],
+          "b": [
+            {
+              "task": "t3",
+              "student": "s4",
+              "step": "独立草稿",
+              "owner": "b",
+              "state": "open",
+              "resolution": null,
+              "contested_work": [
+                "w1"
+              ]
+            },
+            {
+              "task": "t3",
+              "student": "s8",
+              "step": "独立草稿",
+              "owner": "b",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            }
+          ],
+          "c": [
+            {
+              "task": "t4",
+              "student": "s9",
+              "step": "独立草稿",
+              "owner": "c",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            },
+            {
+              "task": "t4",
+              "student": "s9",
+              "step": "提交",
+              "owner": "c",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            },
+            {
+              "task": "t4",
+              "student": "s10",
+              "step": "独立草稿",
+              "owner": "c",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            },
+            {
+              "task": "t4",
+              "student": "s11",
+              "step": "独立草稿",
+              "owner": "c",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            },
+            {
+              "task": "t4",
+              "student": "s12",
+              "step": "独立草稿",
+              "owner": "c",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            },
+            {
+              "task": "t4",
+              "student": "s13",
+              "step": "独立草稿",
+              "owner": "c",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            }
+          ]
+        },
+        "withdrawals": [],
+        "resolution_notices": [
+          {
+            "item": {
+              "task": "t2",
+              "student": "s5",
+              "step": "独立草稿",
+              "owner": "d",
+              "state": "resolved_makeup",
+              "resolution": {
+                "type": "makeup",
+                "claim": "c4",
+                "work": "w3",
+                "teacher": "d"
+              }
+            },
+            "previous_teacher": "(本期前未发送)",
+            "issue": null,
+            "current_owner": "d"
+          }
+        ],
+        "owner_change_notices": [
+          {
+            "item": {
+              "task": "t2",
+              "student": "s4",
+              "step": "独立草稿",
+              "owner": "d",
+              "state": "open",
+              "resolution": null,
+              "contested_work": [
+                "w1"
+              ]
+            },
+            "previous_teacher": "a",
+            "issue": "i0"
+          }
+        ],
+        "prep_to_send_changes": [
+          {
+            "key": [
+              "t2",
+              "s1",
+              "待确认（批准文件冲突）"
+            ],
+            "change": "退出底账",
+            "detail": null
+          },
+          {
+            "key": [
+              "t2",
+              "s2",
+              "待确认（批准文件冲突）"
+            ],
+            "change": "退出底账",
+            "detail": null
+          },
+          {
+            "key": [
+              "t2",
+              "s3",
+              "待确认（批准文件冲突）"
+            ],
+            "change": "退出底账",
+            "detail": null
+          },
+          {
+            "key": [
+              "t2",
+              "s3",
+              "独立草稿"
+            ],
+            "change": "新增待办",
+            "detail": null
+          },
+          {
+            "key": [
+              "t2",
+              "s4",
+              "待确认（批准文件冲突）"
+            ],
+            "change": "退出底账",
+            "detail": null
+          },
+          {
+            "key": [
+              "t2",
+              "s4",
+              "独立草稿"
+            ],
+            "change": "新增待办",
+            "detail": null
+          },
+          {
+            "key": [
+              "t2",
+              "s5",
+              "待确认（批准文件冲突）"
+            ],
+            "change": "退出底账",
+            "detail": null
+          },
+          {
+            "key": [
+              "t2",
+              "s5",
+              "独立草稿"
+            ],
+            "change": "新增结案记录",
+            "detail": {
+              "type": "makeup",
+              "claim": "c4",
+              "work": "w3",
+              "teacher": "d"
+            }
+          },
+          {
+            "key": [
+              "t2",
+              "s6",
+              "待确认（批准文件冲突）"
+            ],
+            "change": "退出底账",
+            "detail": null
+          },
+          {
+            "key": [
+              "t2",
+              "s6",
+              "提交"
+            ],
+            "change": "新增待办",
+            "detail": null
+          },
+          {
+            "key": [
+              "t2",
+              "s6",
+              "独立草稿"
+            ],
+            "change": "新增待办",
+            "detail": null
+          }
+        ]
+      },
+      "routing": [
+        {
+          "recipient": "a",
+          "role": "教师",
+          "routable": true,
+          "item_count": 1,
+          "note": ""
+        },
+        {
+          "recipient": "b",
+          "role": "教师",
+          "routable": true,
+          "item_count": 2,
+          "note": ""
+        },
+        {
+          "recipient": "c",
+          "role": "教师",
+          "routable": true,
+          "item_count": 6,
+          "note": ""
+        },
+        {
+          "recipient": "d",
+          "role": "教师",
+          "routable": false,
+          "item_count": 4,
+          "note": "任课变动后到，recipients 尚未登记，需补录"
+        }
+      ]
+    },
+    "i2": {
+      "edition": {
+        "issue": "i2",
+        "prepared": 21,
+        "send_day": 27,
+        "state": "planned"
+      },
+      "supervisor": {
+        "as_of": 27,
+        "rates": [
+          {
+            "policy": "p1",
+            "grade": 7,
+            "category": "论述",
+            "indicator": "提交",
+            "numerator": 5,
+            "denominator": 6,
+            "rate": 0.8333,
+            "pairs": [
+              {
+                "task": "t1",
+                "student": "s1",
+                "result": "ok"
+              },
+              {
+                "task": "t1",
+                "student": "s2",
+                "result": "ok"
+              },
+              {
+                "task": "t1",
+                "student": "s3",
+                "result": "ok"
+              },
+              {
+                "task": "t1",
+                "student": "s4",
+                "result": "ok"
+              },
+              {
+                "task": "t1",
+                "student": "s5",
+                "result": "ok"
+              },
+              {
+                "task": "t1",
+                "student": "s6",
+                "result": "missing"
+              }
+            ]
+          },
+          {
+            "policy": "p2",
+            "grade": 7,
+            "category": "论述",
+            "indicator": "提交",
+            "numerator": 8,
+            "denominator": 9,
+            "rate": 0.8889,
+            "pairs": [
+              {
+                "task": "t2",
+                "student": "s1",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s2",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s3",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s4",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s5",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s6",
+                "result": "missing"
+              },
+              {
+                "task": "t3",
+                "student": "s4",
+                "result": "ok"
+              },
+              {
+                "task": "t3",
+                "student": "s7",
+                "result": "ok"
+              },
+              {
+                "task": "t3",
+                "student": "s8",
+                "result": "ok"
+              }
+            ]
+          },
+          {
+            "policy": "p2",
+            "grade": 7,
+            "category": "论述",
+            "indicator": "独立草稿",
+            "numerator": 3,
+            "denominator": 9,
+            "rate": 0.3333,
+            "pairs": [
+              {
+                "task": "t2",
+                "student": "s1",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s2",
+                "result": "ok"
+              },
+              {
+                "task": "t2",
+                "student": "s3",
+                "result": "missing"
+              },
+              {
+                "task": "t2",
+                "student": "s4",
+                "result": "missing"
+              },
+              {
+                "task": "t2",
+                "student": "s5",
+                "result": "missing"
+              },
+              {
+                "task": "t2",
+                "student": "s6",
+                "result": "missing"
+              },
+              {
+                "task": "t3",
+                "student": "s4",
+                "result": "missing"
+              },
+              {
+                "task": "t3",
+                "student": "s7",
+                "result": "ok"
+              },
+              {
+                "task": "t3",
+                "student": "s8",
+                "result": "missing"
+              }
+            ]
+          },
+          {
+            "policy": "p3",
+            "grade": 8,
+            "category": "论述",
+            "indicator": "提交",
+            "numerator": 4,
+            "denominator": 5,
+            "rate": 0.8,
+            "pairs": [
+              {
+                "task": "t4",
+                "student": "s9",
+                "result": "missing"
+              },
+              {
+                "task": "t4",
+                "student": "s10",
+                "result": "ok"
+              },
+              {
+                "task": "t4",
+                "student": "s11",
+                "result": "ok"
+              },
+              {
+                "task": "t4",
+                "student": "s12",
+                "result": "ok"
+              },
+              {
+                "task": "t4",
+                "student": "s13",
+                "result": "ok"
+              }
+            ]
+          },
+          {
+            "policy": "p3",
+            "grade": 8,
+            "category": "论述",
+            "indicator": "独立草稿",
+            "numerator": 0,
+            "denominator": 5,
+            "rate": 0.0,
+            "pairs": [
+              {
+                "task": "t4",
+                "student": "s9",
+                "result": "missing"
+              },
+              {
+                "task": "t4",
+                "student": "s10",
+                "result": "missing"
+              },
+              {
+                "task": "t4",
+                "student": "s11",
+                "result": "missing"
+              },
+              {
+                "task": "t4",
+                "student": "s12",
+                "result": "missing"
+              },
+              {
+                "task": "t4",
+                "student": "s13",
+                "result": "missing"
+              }
+            ]
+          }
+        ],
+        "remediation": {
+          "numerator": 3,
+          "denominator": 9,
+          "rate": 0.3333,
+          "resolved": [
+            {
+              "task": "t2",
+              "student": "s4",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "resolved_makeup",
+              "resolution": {
+                "type": "makeup",
+                "claim": "c1",
+                "work": "w1",
+                "teacher": "a"
+              },
+              "owner": "d",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t2",
+              "student": "s5",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "resolved_makeup",
+              "resolution": {
+                "type": "makeup",
+                "claim": "c4",
+                "work": "w3",
+                "teacher": "d"
+              },
+              "owner": "d",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t4",
+              "student": "s9",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "resolved_makeup",
+              "resolution": {
+                "type": "makeup",
+                "claim": "c5",
+                "work": "w4",
+                "teacher": "c"
+              },
+              "owner": "c",
+              "window_policy": "p3"
+            }
+          ],
+          "open": [
+            {
+              "task": "t2",
+              "student": "s3",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "d",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t2",
+              "student": "s6",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "d",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t4",
+              "student": "s10",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            },
+            {
+              "task": "t4",
+              "student": "s11",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            },
+            {
+              "task": "t4",
+              "student": "s12",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            },
+            {
+              "task": "t4",
+              "student": "s13",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            }
+          ]
+        },
+        "uncertain": [],
+        "pending_observation": []
+      },
+      "dispatch": {
+        "issue": "i2",
+        "state": "planned",
+        "prepared_day": 21,
+        "send_day": 27,
+        "teacher_lists": {
+          "a": [
+            {
+              "task": "t1",
+              "student": "s6",
+              "step": "提交",
+              "owner": "a",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            }
+          ],
+          "d": [
+            {
+              "task": "t2",
+              "student": "s3",
+              "step": "独立草稿",
+              "owner": "d",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            },
+            {
+              "task": "t2",
+              "student": "s6",
+              "step": "独立草稿",
+              "owner": "d",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            },
+            {
+              "task": "t2",
+              "student": "s6",
+              "step": "提交",
+              "owner": "d",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            }
+          ],
+          "c": [
+            {
+              "task": "t4",
+              "student": "s9",
+              "step": "提交",
+              "owner": "c",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            },
+            {
+              "task": "t4",
+              "student": "s10",
+              "step": "独立草稿",
+              "owner": "c",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            },
+            {
+              "task": "t4",
+              "student": "s11",
+              "step": "独立草稿",
+              "owner": "c",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            },
+            {
+              "task": "t4",
+              "student": "s12",
+              "step": "独立草稿",
+              "owner": "c",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            },
+            {
+              "task": "t4",
+              "student": "s13",
+              "step": "独立草稿",
+              "owner": "c",
+              "state": "open",
+              "resolution": null,
+              "contested_work": []
+            }
+          ]
+        },
+        "withdrawals": [
+          {
+            "item": {
+              "task": "t3",
+              "student": "s4",
+              "step": "独立草稿",
+              "owner": "b",
+              "state": "withdrawn_policy",
+              "resolution": {
+                "type": "policy_change",
+                "documents": [
+                  "e4"
+                ],
+                "policy": "p1",
+                "window_policy": "p2"
+              }
+            },
+            "previous_teacher": "b",
+            "issue": "i0",
+            "current_owner": "b"
+          },
+          {
+            "item": {
+              "task": "t3",
+              "student": "s8",
+              "step": "独立草稿",
+              "owner": "b",
+              "state": "withdrawn_policy",
+              "resolution": {
+                "type": "policy_change",
+                "documents": [
+                  "e4"
+                ],
+                "policy": "p1",
+                "window_policy": "p2"
+              }
+            },
+            "previous_teacher": "(本期前未发送)",
+            "issue": null,
+            "current_owner": "b"
+          }
+        ],
+        "resolution_notices": [
+          {
+            "item": {
+              "task": "t2",
+              "student": "s4",
+              "step": "独立草稿",
+              "owner": "d",
+              "state": "resolved_makeup",
+              "resolution": {
+                "type": "makeup",
+                "claim": "c1",
+                "work": "w1",
+                "teacher": "a"
+              }
+            },
+            "previous_teacher": "a",
+            "issue": "i0",
+            "current_owner": "d"
+          },
+          {
+            "item": {
+              "task": "t4",
+              "student": "s9",
+              "step": "独立草稿",
+              "owner": "c",
+              "state": "resolved_makeup",
+              "resolution": {
+                "type": "makeup",
+                "claim": "c5",
+                "work": "w4",
+                "teacher": "c"
+              }
+            },
+            "previous_teacher": "(本期前未发送)",
+            "issue": null,
+            "current_owner": "c"
+          }
+        ],
+        "owner_change_notices": [],
+        "prep_to_send_changes": [
+          {
+            "key": [
+              "t2",
+              "s4",
+              "独立草稿"
+            ],
+            "change": "open -> resolved_makeup",
+            "detail": {
+              "type": "makeup",
+              "claim": "c1",
+              "work": "w1",
+              "teacher": "a"
+            }
+          },
+          {
+            "key": [
+              "t3",
+              "s4",
+              "独立草稿"
+            ],
+            "change": "open -> withdrawn_policy",
+            "detail": {
+              "type": "policy_change",
+              "documents": [
+                "e4"
+              ],
+              "policy": "p1",
+              "window_policy": "p2"
+            }
+          },
+          {
+            "key": [
+              "t3",
+              "s8",
+              "独立草稿"
+            ],
+            "change": "open -> withdrawn_policy",
+            "detail": {
+              "type": "policy_change",
+              "documents": [
+                "e4"
+              ],
+              "policy": "p1",
+              "window_policy": "p2"
+            }
+          },
+          {
+            "key": [
+              "t4",
+              "s9",
+              "独立草稿"
+            ],
+            "change": "open -> resolved_makeup",
+            "detail": {
+              "type": "makeup",
+              "claim": "c5",
+              "work": "w4",
+              "teacher": "c"
+            }
+          }
+        ]
+      },
+      "routing": [
+        {
+          "recipient": "a",
+          "role": "教师",
+          "routable": true,
+          "item_count": 1,
+          "note": ""
+        },
+        {
+          "recipient": "c",
+          "role": "教师",
+          "routable": true,
+          "item_count": 5,
+          "note": ""
+        },
+        {
+          "recipient": "d",
+          "role": "教师",
+          "routable": false,
+          "item_count": 3,
+          "note": "任课变动后到，recipients 尚未登记，需补录"
+        }
+      ]
+    }
+  },
+  "diffs": [
+    {
+      "left_day": 13,
+      "right_day": 20,
+      "rate_changes": [
+        {
+          "cohort": [
+            "p1",
+            7,
+            "论述",
+            "提交"
+          ],
+          "before": null,
+          "after": {
+            "numerator": 5,
+            "denominator": 6
+          },
+          "basis": "任务构成"
+        },
+        {
+          "cohort": [
+            "p2",
+            7,
+            "论述",
+            "提交"
+          ],
+          "before": {
+            "numerator": 8,
+            "denominator": 9
+          },
+          "after": {
+            "numerator": 8,
+            "denominator": 9
+          },
+          "basis": "无变化"
+        },
+        {
+          "cohort": [
+            "p2",
+            7,
+            "论述",
+            "独立草稿"
+          ],
+          "before": {
+            "numerator": 3,
+            "denominator": 9
+          },
+          "after": {
+            "numerator": 3,
+            "denominator": 9
+          },
+          "basis": "无变化"
+        },
+        {
+          "cohort": [
+            "p3",
+            8,
+            "论述",
+            "提交"
+          ],
+          "before": null,
+          "after": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "basis": "任务构成"
+        },
+        {
+          "cohort": [
+            "p3",
+            8,
+            "论述",
+            "独立草稿"
+          ],
+          "before": null,
+          "after": {
+            "numerator": 0,
+            "denominator": 5
+          },
+          "basis": "任务构成"
+        }
+      ],
+      "item_changes": [
+        {
+          "key": [
+            "t1",
+            "s6",
+            "提交"
+          ],
+          "before": null,
+          "after": "open",
+          "owner_before": null,
+          "owner_after": "a",
+          "resolution": null,
+          "basis": "任务构成"
+        },
+        {
+          "key": [
+            "t2",
+            "s3",
+            "独立草稿"
+          ],
+          "before": "open",
+          "after": "open",
+          "owner_before": "a",
+          "owner_after": "d",
+          "resolution": null,
+          "basis": "规范改判"
+        },
+        {
+          "key": [
+            "t2",
+            "s4",
+            "独立草稿"
+          ],
+          "before": "open",
+          "after": "open",
+          "owner_before": "a",
+          "owner_after": "d",
+          "resolution": null,
+          "basis": "规范改判"
+        },
+        {
+          "key": [
+            "t2",
+            "s5",
+            "独立草稿"
+          ],
+          "before": "open",
+          "after": "resolved_makeup",
+          "owner_before": "a",
+          "owner_after": "d",
+          "resolution": {
+            "type": "makeup",
+            "claim": "c4",
+            "work": "w3",
+            "teacher": "d"
+          },
+          "basis": "教学行为与补救"
+        },
+        {
+          "key": [
+            "t2",
+            "s6",
+            "提交"
+          ],
+          "before": "open",
+          "after": "open",
+          "owner_before": "a",
+          "owner_after": "d",
+          "resolution": null,
+          "basis": "规范改判"
+        },
+        {
+          "key": [
+            "t2",
+            "s6",
+            "独立草稿"
+          ],
+          "before": "open",
+          "after": "open",
+          "owner_before": "a",
+          "owner_after": "d",
+          "resolution": null,
+          "basis": "规范改判"
+        },
+        {
+          "key": [
+            "t4",
+            "s10",
+            "独立草稿"
+          ],
+          "before": null,
+          "after": "open",
+          "owner_before": null,
+          "owner_after": "c",
+          "resolution": null,
+          "basis": "任务构成"
+        },
+        {
+          "key": [
+            "t4",
+            "s11",
+            "独立草稿"
+          ],
+          "before": null,
+          "after": "open",
+          "owner_before": null,
+          "owner_after": "c",
+          "resolution": null,
+          "basis": "任务构成"
+        },
+        {
+          "key": [
+            "t4",
+            "s12",
+            "独立草稿"
+          ],
+          "before": null,
+          "after": "open",
+          "owner_before": null,
+          "owner_after": "c",
+          "resolution": null,
+          "basis": "任务构成"
+        },
+        {
+          "key": [
+            "t4",
+            "s13",
+            "独立草稿"
+          ],
+          "before": null,
+          "after": "open",
+          "owner_before": null,
+          "owner_after": "c",
+          "resolution": null,
+          "basis": "任务构成"
+        },
+        {
+          "key": [
+            "t4",
+            "s9",
+            "提交"
+          ],
+          "before": null,
+          "after": "open",
+          "owner_before": null,
+          "owner_after": "c",
+          "resolution": null,
+          "basis": "任务构成"
+        },
+        {
+          "key": [
+            "t4",
+            "s9",
+            "独立草稿"
+          ],
+          "before": null,
+          "after": "open",
+          "owner_before": null,
+          "owner_after": "c",
+          "resolution": null,
+          "basis": "任务构成"
+        }
+      ],
+      "remediation": {
+        "left": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0,
+          "resolved": [],
+          "open": [
+            {
+              "task": "t2",
+              "student": "s3",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "a",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t2",
+              "student": "s4",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "a",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t2",
+              "student": "s5",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "a",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t2",
+              "student": "s6",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "a",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t3",
+              "student": "s4",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "b",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t3",
+              "student": "s8",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "b",
+              "window_policy": "p2"
+            }
+          ]
+        },
+        "right": {
+          "numerator": 1,
+          "denominator": 11,
+          "rate": 0.0909,
+          "resolved": [
+            {
+              "task": "t2",
+              "student": "s5",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "resolved_makeup",
+              "resolution": {
+                "type": "makeup",
+                "claim": "c4",
+                "work": "w3",
+                "teacher": "d"
+              },
+              "owner": "d",
+              "window_policy": "p2"
+            }
+          ],
+          "open": [
+            {
+              "task": "t2",
+              "student": "s3",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "d",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t2",
+              "student": "s4",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "d",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t2",
+              "student": "s6",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "d",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t3",
+              "student": "s4",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "b",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t3",
+              "student": "s8",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "b",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t4",
+              "student": "s9",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            },
+            {
+              "task": "t4",
+              "student": "s10",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            },
+            {
+              "task": "t4",
+              "student": "s11",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            },
+            {
+              "task": "t4",
+              "student": "s12",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            },
+            {
+              "task": "t4",
+              "student": "s13",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "left_day": 20,
+      "right_day": 27,
+      "rate_changes": [
+        {
+          "cohort": [
+            "p1",
+            7,
+            "论述",
+            "提交"
+          ],
+          "before": {
+            "numerator": 5,
+            "denominator": 6
+          },
+          "after": {
+            "numerator": 5,
+            "denominator": 6
+          },
+          "basis": "无变化"
+        },
+        {
+          "cohort": [
+            "p2",
+            7,
+            "论述",
+            "提交"
+          ],
+          "before": {
+            "numerator": 8,
+            "denominator": 9
+          },
+          "after": {
+            "numerator": 8,
+            "denominator": 9
+          },
+          "basis": "无变化"
+        },
+        {
+          "cohort": [
+            "p2",
+            7,
+            "论述",
+            "独立草稿"
+          ],
+          "before": {
+            "numerator": 3,
+            "denominator": 9
+          },
+          "after": {
+            "numerator": 3,
+            "denominator": 9
+          },
+          "basis": "无变化"
+        },
+        {
+          "cohort": [
+            "p3",
+            8,
+            "论述",
+            "提交"
+          ],
+          "before": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "after": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "basis": "无变化"
+        },
+        {
+          "cohort": [
+            "p3",
+            8,
+            "论述",
+            "独立草稿"
+          ],
+          "before": {
+            "numerator": 0,
+            "denominator": 5
+          },
+          "after": {
+            "numerator": 0,
+            "denominator": 5
+          },
+          "basis": "无变化"
+        }
+      ],
+      "item_changes": [
+        {
+          "key": [
+            "t2",
+            "s4",
+            "独立草稿"
+          ],
+          "before": "open",
+          "after": "resolved_makeup",
+          "owner_before": "d",
+          "owner_after": "d",
+          "resolution": {
+            "type": "makeup",
+            "claim": "c1",
+            "work": "w1",
+            "teacher": "a"
+          },
+          "basis": "教学行为与补救"
+        },
+        {
+          "key": [
+            "t3",
+            "s4",
+            "独立草稿"
+          ],
+          "before": "open",
+          "after": "withdrawn_policy",
+          "owner_before": "b",
+          "owner_after": "b",
+          "resolution": {
+            "type": "policy_change",
+            "documents": [
+              "e4"
+            ],
+            "policy": "p1",
+            "window_policy": "p2"
+          },
+          "basis": "规范改判"
+        },
+        {
+          "key": [
+            "t3",
+            "s8",
+            "独立草稿"
+          ],
+          "before": "open",
+          "after": "withdrawn_policy",
+          "owner_before": "b",
+          "owner_after": "b",
+          "resolution": {
+            "type": "policy_change",
+            "documents": [
+              "e4"
+            ],
+            "policy": "p1",
+            "window_policy": "p2"
+          },
+          "basis": "规范改判"
+        },
+        {
+          "key": [
+            "t4",
+            "s9",
+            "独立草稿"
+          ],
+          "before": "open",
+          "after": "resolved_makeup",
+          "owner_before": "c",
+          "owner_after": "c",
+          "resolution": {
+            "type": "makeup",
+            "claim": "c5",
+            "work": "w4",
+            "teacher": "c"
+          },
+          "basis": "教学行为与补救"
+        }
+      ],
+      "remediation": {
+        "left": {
+          "numerator": 1,
+          "denominator": 11,
+          "rate": 0.0909,
+          "resolved": [
+            {
+              "task": "t2",
+              "student": "s5",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "resolved_makeup",
+              "resolution": {
+                "type": "makeup",
+                "claim": "c4",
+                "work": "w3",
+                "teacher": "d"
+              },
+              "owner": "d",
+              "window_policy": "p2"
+            }
+          ],
+          "open": [
+            {
+              "task": "t2",
+              "student": "s3",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "d",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t2",
+              "student": "s4",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "d",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t2",
+              "student": "s6",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "d",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t3",
+              "student": "s4",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "b",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t3",
+              "student": "s8",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "b",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t4",
+              "student": "s9",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            },
+            {
+              "task": "t4",
+              "student": "s10",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            },
+            {
+              "task": "t4",
+              "student": "s11",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            },
+            {
+              "task": "t4",
+              "student": "s12",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            },
+            {
+              "task": "t4",
+              "student": "s13",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            }
+          ]
+        },
+        "right": {
+          "numerator": 3,
+          "denominator": 9,
+          "rate": 0.3333,
+          "resolved": [
+            {
+              "task": "t2",
+              "student": "s4",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "resolved_makeup",
+              "resolution": {
+                "type": "makeup",
+                "claim": "c1",
+                "work": "w1",
+                "teacher": "a"
+              },
+              "owner": "d",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t2",
+              "student": "s5",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "resolved_makeup",
+              "resolution": {
+                "type": "makeup",
+                "claim": "c4",
+                "work": "w3",
+                "teacher": "d"
+              },
+              "owner": "d",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t4",
+              "student": "s9",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "resolved_makeup",
+              "resolution": {
+                "type": "makeup",
+                "claim": "c5",
+                "work": "w4",
+                "teacher": "c"
+              },
+              "owner": "c",
+              "window_policy": "p3"
+            }
+          ],
+          "open": [
+            {
+              "task": "t2",
+              "student": "s3",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "d",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t2",
+              "student": "s6",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "d",
+              "window_policy": "p2"
+            },
+            {
+              "task": "t4",
+              "student": "s10",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            },
+            {
+              "task": "t4",
+              "student": "s11",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            },
+            {
+              "task": "t4",
+              "student": "s12",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            },
+            {
+              "task": "t4",
+              "student": "s13",
+              "step": "独立草稿",
+              "result": "missing",
+              "state": "open",
+              "resolution": null,
+              "owner": "c",
+              "window_policy": "p3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
