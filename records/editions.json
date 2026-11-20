@@ -1,0 +1,29 @@
+[
+  {
+    "issue": "i0",
+    "cutoff": 12,
+    "state": "sent",
+    "recipients": [
+      "会务",
+      "校办"
+    ]
+  },
+  {
+    "issue": "i1",
+    "cutoff": 14,
+    "state": "approved",
+    "recipients": [
+      "会务",
+      "校办"
+    ]
+  },
+  {
+    "issue": "i2",
+    "cutoff": 18,
+    "state": "planned",
+    "recipients": [
+      "会务",
+      "校办"
+    ]
+  }
+]

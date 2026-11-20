@@ -1,0 +1,46 @@
+[
+  {
+    "task": "t1",
+    "school": "东校",
+    "room": "A",
+    "grade": 7,
+    "category": "论述",
+    "opened": 5,
+    "due": 9,
+    "reopened": 11,
+    "owner": "a"
+  },
+  {
+    "task": "t2",
+    "school": "东校",
+    "room": "A",
+    "grade": 7,
+    "category": "论述",
+    "opened": 8,
+    "due": 13,
+    "reopened": null,
+    "owner": "a"
+  },
+  {
+    "task": "t3",
+    "school": "东校",
+    "room": "B",
+    "grade": 7,
+    "category": "论述",
+    "opened": 8,
+    "due": 13,
+    "reopened": null,
+    "owner": "b"
+  },
+  {
+    "task": "t4",
+    "school": "西校",
+    "room": "C",
+    "grade": 8,
+    "category": "论述",
+    "opened": 9,
+    "due": 16,
+    "reopened": null,
+    "owner": "c"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "issue": "k1",
+    "recipient": "会务",
+    "dimension": "room",
+    "cohort": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6"
+    ],
+    "numerator": 5,
+    "denominator": 6,
+    "sent": 12,
+    "indicator": "提交"
+  },
+  {
+    "issue": "k2",
+    "recipient": "校办",
+    "dimension": "room",
+    "cohort": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6"
+    ],
+    "numerator": 5,
+    "denominator": 6,
+    "sent": 12,
+    "indicator": "提交"
+  }
+]

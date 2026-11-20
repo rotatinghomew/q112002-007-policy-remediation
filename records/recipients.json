@@ -1,0 +1,58 @@
+[
+  {
+    "recipient": "会务",
+    "role": "联席",
+    "area": "东校",
+    "dimension": "school",
+    "start": 1,
+    "end": null
+  },
+  {
+    "recipient": "会务",
+    "role": "联席",
+    "area": "东校",
+    "dimension": "room",
+    "start": 1,
+    "end": 16
+  },
+  {
+    "recipient": "校办",
+    "role": "管理",
+    "area": "东校",
+    "dimension": "school",
+    "start": 1,
+    "end": null
+  },
+  {
+    "recipient": "校办",
+    "role": "管理",
+    "area": "东校",
+    "dimension": "room",
+    "start": 1,
+    "end": null
+  },
+  {
+    "recipient": "a",
+    "role": "教师",
+    "area": "A",
+    "dimension": "own_task",
+    "start": 1,
+    "end": null
+  },
+  {
+    "recipient": "b",
+    "role": "教师",
+    "area": "B",
+    "dimension": "own_task",
+    "start": 1,
+    "end": null
+  },
+  {
+    "recipient": "c",
+    "role": "教师",
+    "area": "C",
+    "dimension": "own_task",
+    "start": 1,
+    "end": null
+  }
+]

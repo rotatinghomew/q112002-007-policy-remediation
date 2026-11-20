@@ -1,0 +1,31 @@
+[
+  {
+    "policy": "p1",
+    "grade": 7,
+    "category": "论述",
+    "effective": 1,
+    "required": [
+      "提交"
+    ]
+  },
+  {
+    "policy": "p2",
+    "grade": 7,
+    "category": "论述",
+    "effective": 8,
+    "required": [
+      "独立草稿",
+      "提交"
+    ]
+  },
+  {
+    "policy": "p3",
+    "grade": 8,
+    "category": "论述",
+    "effective": 9,
+    "required": [
+      "独立草稿",
+      "提交"
+    ]
+  }
+]

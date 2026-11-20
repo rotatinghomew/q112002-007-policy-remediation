@@ -1,0 +1,135 @@
+[
+  {
+    "task": "t1",
+    "student": "s1",
+    "step": "提交",
+    "happened": 10,
+    "received": 10
+  },
+  {
+    "task": "t1",
+    "student": "s2",
+    "step": "提交",
+    "happened": 10,
+    "received": 10
+  },
+  {
+    "task": "t1",
+    "student": "s3",
+    "step": "提交",
+    "happened": 10,
+    "received": 10
+  },
+  {
+    "task": "t1",
+    "student": "s4",
+    "step": "提交",
+    "happened": 10,
+    "received": 10
+  },
+  {
+    "task": "t1",
+    "student": "s5",
+    "step": "提交",
+    "happened": 10,
+    "received": 10
+  },
+  {
+    "task": "t2",
+    "student": "s1",
+    "step": "提交",
+    "happened": 12,
+    "received": 12
+  },
+  {
+    "task": "t2",
+    "student": "s2",
+    "step": "提交",
+    "happened": 12,
+    "received": 12
+  },
+  {
+    "task": "t2",
+    "student": "s3",
+    "step": "提交",
+    "happened": 12,
+    "received": 12
+  },
+  {
+    "task": "t2",
+    "student": "s4",
+    "step": "提交",
+    "happened": 12,
+    "received": 12
+  },
+  {
+    "task": "t2",
+    "student": "s5",
+    "step": "提交",
+    "happened": 12,
+    "received": 12
+  },
+  {
+    "task": "t3",
+    "student": "s7",
+    "step": "提交",
+    "happened": 12,
+    "received": 12
+  },
+  {
+    "task": "t3",
+    "student": "s8",
+    "step": "提交",
+    "happened": 12,
+    "received": 12
+  },
+  {
+    "task": "t4",
+    "student": "s10",
+    "step": "提交",
+    "happened": 16,
+    "received": 16
+  },
+  {
+    "task": "t4",
+    "student": "s11",
+    "step": "提交",
+    "happened": 16,
+    "received": 16
+  },
+  {
+    "task": "t4",
+    "student": "s12",
+    "step": "提交",
+    "happened": 16,
+    "received": 16
+  },
+  {
+    "task": "t4",
+    "student": "s13",
+    "step": "提交",
+    "happened": 16,
+    "received": 16
+  },
+  {
+    "task": "t2",
+    "student": "s1",
+    "step": "独立草稿",
+    "happened": 10,
+    "received": 10
+  },
+  {
+    "task": "t2",
+    "student": "s2",
+    "step": "独立草稿",
+    "happened": 11,
+    "received": 16
+  },
+  {
+    "task": "t3",
+    "student": "s7",
+    "step": "独立草稿",
+    "happened": 10,
+    "received": 11
+  }
+]

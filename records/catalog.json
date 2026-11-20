@@ -1,0 +1,63 @@
+{
+  "policies": [
+    "policy",
+    "grade",
+    "category",
+    "effective",
+    "required"
+  ],
+  "tasks": [
+    "task",
+    "school",
+    "room",
+    "grade",
+    "category",
+    "opened",
+    "due",
+    "reopened",
+    "owner"
+  ],
+  "roster": [
+    "task",
+    "student"
+  ],
+  "steps": [
+    "task",
+    "student",
+    "step",
+    "happened",
+    "received"
+  ],
+  "exceptions": [
+    "document",
+    "task",
+    "policy",
+    "approval_day",
+    "received",
+    "cancels"
+  ],
+  "recipients": [
+    "recipient",
+    "role",
+    "area",
+    "dimension",
+    "start",
+    "end"
+  ],
+  "released": [
+    "issue",
+    "recipient",
+    "dimension",
+    "cohort",
+    "numerator",
+    "denominator",
+    "sent",
+    "indicator"
+  ],
+  "editions": [
+    "issue",
+    "cutoff",
+    "state",
+    "recipients"
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "document": "e1",
+    "task": "t2",
+    "policy": "p1",
+    "approval_day": 8,
+    "received": 14,
+    "cancels": null
+  },
+  {
+    "document": "e2",
+    "task": "t2",
+    "policy": "p2",
+    "approval_day": 9,
+    "received": 14,
+    "cancels": null
+  },
+  {
+    "document": "e3",
+    "task": "t2",
+    "policy": null,
+    "approval_day": 10,
+    "received": 17,
+    "cancels": "e1"
+  },
+  {
+    "document": "e4",
+    "task": "t3",
+    "policy": "p1",
+    "approval_day": 8,
+    "received": 10,
+    "cancels": null
+  }
+]
