@@ -1,8 +1,8 @@
 # 课堂规范执行简报资料
 
-人、班和学校都是匿名编号。时钟以业务日计。规范用年级和任务类别指定范围，`effective` 是开始日；普通在途任务按首次开放适用，除非明确批准改变。`required` 是需要履行的步骤。指标的最小发布人数按不同学生计，不按任务行数计。跨周汇总时，重复学生在组内只计一次。
+人、班和学校都是匿名编号。时钟以业务日计。规范用年级和任务类别指定范围，`effective` 是开始日；普通在途任务按首次开放适用，除非明确批准改变。`required` 是需要履行的步骤。任务在重开日后有与首次开放同样长的观察期。执行率的统计单位是学生和原任务的配对。
 `exceptions` 是发文单位给学校的文件行；相同范围的不同认可版本没有缺省优先级，只有撤销或裁定能解除冲突。`approval_day` 是文件写明的时间，`received` 是督导实际收到的时间；取消某文件以 `cancels` 指向原编号。
-收件授权区间含起始、不含结束。历史释出行是用户已收到的汇总，这些值来自旧业务过程，不是预期新输出；`cohort` 对应原简报释出覆盖的匿名学生。分母不足四人时，既要判断本格，也要考虑历史释出与新汇总一起构成的可推导量。教师跟进是处理自己工作所需的例外，不是公开汇总发布。
+`makeup_options` 记录允许认领的原任务与补办窗口，日期含首尾；`work` 是补做活动发生及提示的时间。`claims` 是补救认领，不是完成凭证。裁定可以追溯到两条互相竞争的认领。`owners` 是后到的任课变动；当日开始生效。`deliveries` 是已有的名单发送及认领回执；发送后责任变化应另行通知。简报或名单送达不使用真实邮箱地址。
 
 ## 资料格式
 
@@ -13,9 +13,13 @@
 - `roster`：各任务的应参与学生。 字段：`task`、`student`。
 - `steps`：happened 为行为发生日；补传为更晚的 received。 字段：`task`、`student`、`step`、`happened`、`received`。
 - `exceptions`：影响任务的批准文件及撤销记录。 字段：`document`、`task`、`policy`、`approval_day`、`received`、`cancels`。
-- `recipients`：每行是一个授权；空结束表示无到期日。 字段：`recipient`、`role`、`area`、`dimension`、`start`、`end`。
-- `released`：实际历史释出记录，不含尚未发布的汇总。 字段：`issue`、`recipient`、`dimension`、`cohort`、`numerator`、`denominator`、`sent`、`indicator`。
-- `editions`：简报计划与历史发放记录。 字段：`issue`、`cutoff`、`state`、`recipients`。
+- `owners`：后到的任课变动。 字段：`task`、`owner`、`effective`、`received`。
+- `makeup_options`：可用补救练习和补办窗口。 字段：`task`、`exercise`、`start`、`end`。
+- `work`：补救登记；hint 为空表示监考确认未提供提示。 字段：`work`、`exercise`、`student`、`independent`、`hint`。
+- `claims`：教师提出的认领。 字段：`claim`、`task`、`work`、`teacher`、`day`。
+- `rulings`：认领冲突由督导裁定。 字段：`work`、`granted`、`day`。
+- `deliveries`：过去通知的发出和认领。 字段：`issue`、`task`、`student`、`teacher`、`sent`、`acknowledged`。
+- `editions`：简报排定日和是否发出。 字段：`issue`、`prepared`、`send_day`、`state`。
 
 ## 本地查看
 

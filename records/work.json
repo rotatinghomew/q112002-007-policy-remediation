@@ -1,0 +1,30 @@
+[
+  {
+    "work": "w1",
+    "exercise": "m1",
+    "student": "s2",
+    "independent": 18,
+    "hint": 19
+  },
+  {
+    "work": "w2",
+    "exercise": "m1",
+    "student": "s3",
+    "independent": 18,
+    "hint": 17
+  },
+  {
+    "work": "w3",
+    "exercise": "m2",
+    "student": "s4",
+    "independent": 19,
+    "hint": null
+  },
+  {
+    "work": "w4",
+    "exercise": "m1",
+    "student": "s9",
+    "independent": 22,
+    "hint": null
+  }
+]

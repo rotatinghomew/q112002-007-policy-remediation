@@ -1,0 +1,37 @@
+[
+  {
+    "claim": "c1",
+    "task": "t2",
+    "work": "w1",
+    "teacher": "a",
+    "day": 18
+  },
+  {
+    "claim": "c2",
+    "task": "t3",
+    "work": "w1",
+    "teacher": "b",
+    "day": 19
+  },
+  {
+    "claim": "c3",
+    "task": "t2",
+    "work": "w2",
+    "teacher": "d",
+    "day": 19
+  },
+  {
+    "claim": "c4",
+    "task": "t2",
+    "work": "w3",
+    "teacher": "d",
+    "day": 20
+  },
+  {
+    "claim": "c5",
+    "task": "t4",
+    "work": "w4",
+    "teacher": "c",
+    "day": 22
+  }
+]

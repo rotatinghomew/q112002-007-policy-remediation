@@ -1,0 +1,26 @@
+[
+  {
+    "issue": "i0",
+    "task": "t2",
+    "student": "s2",
+    "teacher": "a",
+    "sent": 13,
+    "acknowledged": 13
+  },
+  {
+    "issue": "i0",
+    "task": "t2",
+    "student": "s4",
+    "teacher": "a",
+    "sent": 13,
+    "acknowledged": null
+  },
+  {
+    "issue": "i0",
+    "task": "t3",
+    "student": "s7",
+    "teacher": "b",
+    "sent": 13,
+    "acknowledged": 14
+  }
+]

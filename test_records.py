@@ -14,9 +14,10 @@ class RecordsTest(unittest.TestCase):
     def test_documents_reference_source_records(self):
         self.references('exceptions','task','tasks','task')
         self.references('roster','task','tasks','task')
-        self.references('released','recipient','recipients','recipient')
+        self.references('claims','work','work','work')
+        self.references('rulings','granted','claims','claim')
         pairs = {(row['task'],row['student']) for row in self.tables['roster']}
         self.assertTrue(all((row['task'],row['student']) in pairs for row in self.tables['steps']))
-        for old in self.tables['released']:
-            self.assertEqual(len(old['cohort']), old['denominator'])
+        self.assertEqual(2, len([row for row in self.tables['claims'] if row['work']=='w1']))
+        self.assertTrue(any(row['task']=='t2' and row['acknowledged'] for row in self.tables['deliveries']))
         self.assertEqual(len([row for row in self.tables['exceptions'] if row['task']=='t2']),3)

@@ -36,28 +36,49 @@
     "received",
     "cancels"
   ],
-  "recipients": [
-    "recipient",
-    "role",
-    "area",
-    "dimension",
+  "owners": [
+    "task",
+    "owner",
+    "effective",
+    "received"
+  ],
+  "makeup_options": [
+    "task",
+    "exercise",
     "start",
     "end"
   ],
-  "released": [
+  "work": [
+    "work",
+    "exercise",
+    "student",
+    "independent",
+    "hint"
+  ],
+  "claims": [
+    "claim",
+    "task",
+    "work",
+    "teacher",
+    "day"
+  ],
+  "rulings": [
+    "work",
+    "granted",
+    "day"
+  ],
+  "deliveries": [
     "issue",
-    "recipient",
-    "dimension",
-    "cohort",
-    "numerator",
-    "denominator",
+    "task",
+    "student",
+    "teacher",
     "sent",
-    "indicator"
+    "acknowledged"
   ],
   "editions": [
     "issue",
-    "cutoff",
-    "state",
-    "recipients"
+    "prepared",
+    "send_day",
+    "state"
   ]
 }

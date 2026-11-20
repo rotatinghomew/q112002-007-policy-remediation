@@ -1,29 +1,20 @@
 [
   {
     "issue": "i0",
-    "cutoff": 12,
-    "state": "sent",
-    "recipients": [
-      "会务",
-      "校办"
-    ]
+    "prepared": 12,
+    "send_day": 13,
+    "state": "sent"
   },
   {
     "issue": "i1",
-    "cutoff": 14,
-    "state": "approved",
-    "recipients": [
-      "会务",
-      "校办"
-    ]
+    "prepared": 16,
+    "send_day": 20,
+    "state": "prepared"
   },
   {
     "issue": "i2",
-    "cutoff": 18,
-    "state": "planned",
-    "recipients": [
-      "会务",
-      "校办"
-    ]
+    "prepared": 21,
+    "send_day": 27,
+    "state": "planned"
   }
 ]
