@@ -19,5 +19,7 @@ class RecordsTest(unittest.TestCase):
         pairs = {(row['task'],row['student']) for row in self.tables['roster']}
         self.assertTrue(all((row['task'],row['student']) in pairs for row in self.tables['steps']))
         self.assertEqual(2, len([row for row in self.tables['claims'] if row['work']=='w1']))
+        primary = next(row for row in self.tables['work'] if row['work']=='w1')
+        self.assertTrue(all((row['task'],primary['student']) in pairs for row in self.tables['claims'] if row['work']=='w1'))
         self.assertTrue(any(row['task']=='t2' and row['acknowledged'] for row in self.tables['deliveries']))
         self.assertEqual(len([row for row in self.tables['exceptions'] if row['task']=='t2']),3)
